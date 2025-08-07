@@ -1,10 +1,8 @@
-I can definitely do that. I'll combine all the information you provided into a single, highly professional, and visually appealing `README.md` file. I'll use Markdown with colors, badges, and a structured layout to make it stand out.
-
-Here is the combined, professional `README.md` file you requested:
-
------
 
 # 🤖 Agentic AI Platform: Drive-Thru & Healthcare Assistant
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/75571443-b581-4146-8620-86100917cefa" />
+
 
 This repository showcases a powerful, unified platform for building and deploying agentic AI systems. It features two distinct, fully functional AI agents: a **Restaurant Drive-Thru Assistant** and a **Healthcare Clinic Assistant**. Both are designed to operate autonomously, handle complex conversational tasks, and perform actions using a suite of agent tools.
 
