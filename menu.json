@@ -1,0 +1,226 @@
+{
+  "restaurant": {
+    "name": "Taste Haven",
+    "location": "123 Flavor Street, Food City",
+    "prep_time_default": 15
+  },
+  "menu": {
+    "categories": [
+      {
+        "name": "Appetizers",
+        "items": [
+          {
+            "id": "A1",
+            "name": "Spring Rolls",
+            "price": 6.99,
+            "description": "Crispy rolls filled with vegetables.",
+            "dietary": [
+              "vegetarian",
+              "vegan"
+            ],
+            "gluten_free": false,
+            "prep_time": 10
+          },
+          {
+            "id": "A2",
+            "name": "Garlic Bread",
+            "price": 4.99,
+            "description": "Toasted bread with garlic butter.",
+            "dietary": [],
+            "gluten_free": false,
+            "prep_time": 8
+          },
+          {
+            "id": "A3",
+            "name": "Cheese Sticks",
+            "price": 5.99,
+            "description": "Mozzarella sticks with marinara.",
+            "dietary": [
+              "vegetarian"
+            ],
+            "gluten_free": false,
+            "prep_time": 12
+          }
+        ]
+      },
+      {
+        "name": "Main Courses",
+        "items": [
+          {
+            "id": "M4",
+            "name": "Grilled Salmon",
+            "price": 18.99,
+            "description": "Fresh salmon with lemon herb sauce.",
+            "dietary": [],
+            "gluten_free": true,
+            "prep_time": 20
+          },
+          {
+            "id": "M5",
+            "name": "Vegetable Stir Fry",
+            "price": 12.99,
+            "description": "Mixed veggies in a soy-ginger sauce.",
+            "dietary": [
+              "vegetarian",
+              "vegan"
+            ],
+            "gluten_free": true,
+            "prep_time": 15
+          },
+          {
+            "id": "M6",
+            "name": "Chicken Alfredo",
+            "price": 16.99,
+            "description": "Creamy pasta with grilled chicken.",
+            "dietary": [],
+            "gluten_free": false,
+            "prep_time": 18
+          },
+          {
+            "id": "M7",
+            "name": "Beef Burger",
+            "price": 14.99,
+            "description": "Juicy beef patty with toppings.",
+            "dietary": [],
+            "gluten_free": false,
+            "prep_time": 15
+          }
+        ]
+      },
+      {
+        "name": "Sides",
+        "items": [
+          {
+            "id": "S8",
+            "name": "Mashed Potatoes",
+            "price": 3.99,
+            "description": "Creamy potatoes with butter.",
+            "dietary": [
+              "vegetarian"
+            ],
+            "gluten_free": true,
+            "prep_time": 12
+          },
+          {
+            "id": "S9",
+            "name": "French Fries",
+            "price": 2.99,
+            "description": "Crispy golden fries.",
+            "dietary": [
+              "vegetarian",
+              "vegan"
+            ],
+            "gluten_free": true,
+            "prep_time": 10
+          },
+          {
+            "id": "S10",
+            "name": "Side Salad",
+            "price": 3.49,
+            "description": "Fresh greens with dressing.",
+            "dietary": [
+              "vegetarian",
+              "vegan"
+            ],
+            "gluten_free": true,
+            "prep_time": 5
+          }
+        ]
+      },
+      {
+        "name": "Drinks",
+        "items": [
+          {
+            "id": "D11",
+            "name": "Lemonade",
+            "price": 2.49,
+            "description": "Freshly squeezed lemonade.",
+            "dietary": [
+              "vegetarian",
+              "vegan"
+            ],
+            "gluten_free": true,
+            "prep_time": 5
+          },
+          {
+            "id": "D12",
+            "name": "Cola",
+            "price": 1.99,
+            "description": "Classic cola drink.",
+            "dietary": [
+              "vegetarian",
+              "vegan"
+            ],
+            "gluten_free": true,
+            "prep_time": 2
+          },
+          {
+            "id": "D13",
+            "name": "Iced Tea",
+            "price": 2.29,
+            "description": "Sweetened iced tea.",
+            "dietary": [
+              "vegetarian",
+              "vegan"
+            ],
+            "gluten_free": true,
+            "prep_time": 3
+          }
+        ]
+      }
+    ],
+    "combos": [
+      {
+        "id": "C1",
+        "name": "Vegetable Stir Fry Combo",
+        "items": [
+          "M10",
+          "S12",
+          "D14"
+        ],
+        "price": 17.77,
+        "description": "Vegetable Stir Fry with French Fries and Cola.",
+        "prep_time": 20,
+        "dietary": [
+          "vegan",
+          "vegetarian"
+        ],
+        "gluten_free": true
+      },
+      {
+        "id": "C2",
+        "name": "Grilled Salmon Combo",
+        "items": [
+          "M10",
+          "S12",
+          "D14"
+        ],
+        "price": 24.77,
+        "description": "Grilled Salmon with Mashed Potatoes and Cola.",
+        "prep_time": 25,
+        "dietary": [
+          "vegan",
+          "vegetarian"
+        ],
+        "gluten_free": true
+      },
+      {
+        "id": "C3",
+        "name": "Beef Burger Combo",
+        "items": [
+          "M10",
+          "S12",
+          "D14"
+        ],
+        "price": 20.77,
+        "description": "Beef Burger with Mashed Potatoes and Cola.",
+        "prep_time": 20,
+        "dietary": [
+          "vegan",
+          "vegetarian"
+        ],
+        "gluten_free": false
+      }
+    ]
+  }
+}
