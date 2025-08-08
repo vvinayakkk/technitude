@@ -1,7 +1,7 @@
 
 # 🤖 Agentic AI Platform: Drive-Thru & Healthcare Assistant
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/75571443-b581-4146-8620-86100917cefa" />
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/75571443-b581-4146-8620-86100917cefa" />
 
 
 This repository showcases a powerful, unified platform for building and deploying agentic AI systems. It features two distinct, fully functional AI agents: a **Restaurant Drive-Thru Assistant** and a **Healthcare Clinic Assistant**. Both are designed to operate autonomously, handle complex conversational tasks, and perform actions using a suite of agent tools.
